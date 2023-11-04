@@ -1,0 +1,40 @@
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+  /* Button Styling */
+  .btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #0074d9;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  
+  /* Button Hover Effect */
+  .btn:hover {
+    background-color: #0056b3;
+    color: #fff;
+  }
+  
+  /* Button Active (Clicked) State */
+  .btn:active {
+    background-color: #003d80;
+  }
+  
+  /* Disabled Button */
+  .btn[disabled] {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
