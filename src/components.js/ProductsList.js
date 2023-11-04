@@ -20,9 +20,6 @@ function ProductsList() {
 //   },[]);
 
 
-
-
-
   const menuProducts = [...new Set(productsData.map((product) => product.category))];
 
   const filterProducts = (cat) => {
